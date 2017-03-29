@@ -1,0 +1,5 @@
+ERROR: invalid floating literal (#1): 1..2
+ERROR: malformed number (#4): 0x
+ERROR: invalid floating literal (#2): 1e+
+ERROR: malformed number (#4): 0x
+ERROR: invalid floating literal (#2): 1e

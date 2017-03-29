@@ -1,0 +1,389 @@
+invalid #
+identifier define
+identifier PLUS
+simple ( OP_LPAREN
+identifier x
+simple , OP_COMMA
+identifier y
+simple ) OP_RPAREN
+identifier x
+invalid ##
+identifier y
+invalid #
+identifier define
+identifier ADD
+simple ( OP_LPAREN
+identifier x
+simple , OP_COMMA
+identifier y
+simple ) OP_RPAREN
+identifier x
+invalid ##
+identifier y
+invalid #
+identifier define
+identifier SUM
+simple ( OP_LPAREN
+identifier x
+simple , OP_COMMA
+identifier y
+simple , OP_COMMA
+identifier z
+simple ) OP_RPAREN
+identifier x
+invalid ##
+identifier y
+invalid ##
+identifier z
+identifier PLUS
+simple ( OP_LPAREN
+simple , OP_COMMA
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple , OP_COMMA
+identifier id
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple , OP_COMMA
+literal 1 int 01000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple , OP_COMMA
+literal "string" array of 7 char 737472696E6700
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple , OP_COMMA
+literal 'c' char 63
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple , OP_COMMA
+invalid @
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple , OP_COMMA
+simple . OP_DOT
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier id
+simple , OP_COMMA
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1 int 01000000
+simple , OP_COMMA
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal "string" array of 7 char 737472696E6700
+simple , OP_COMMA
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 'c' char 63
+simple , OP_COMMA
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+invalid @
+simple , OP_COMMA
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple . OP_DOT
+simple , OP_COMMA
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier id1
+simple , OP_COMMA
+identifier id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier or_
+simple , OP_COMMA
+identifier eq
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier id1
+simple , OP_COMMA
+literal 1 int 01000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier id1
+simple , OP_COMMA
+literal 1e5 double 00000000006AF840
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier id1
+simple , OP_COMMA
+user-defined-literal 1_id _id integer 1
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier u8
+simple , OP_COMMA
+literal "ab" array of 3 char 616200
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier L
+simple , OP_COMMA
+literal "ABC" array of 4 char 41424300
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier R
+simple , OP_COMMA
+literal "ab(cd)ab" array of 9 char 616228636429616200
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier u
+simple , OP_COMMA
+literal 'x' char 78
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier id1
+simple , OP_COMMA
+invalid ̀
+invalid ̀
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+identifier id1
+simple , OP_COMMA
+simple or OP_LOR
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 13 int 0D000000
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1. double 000000000000F03F
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1.0e+14 double 0000901EC4BCD642
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1e-13 double 82764968C2253C3D
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 0.14 double EC51B81E85EBC13F
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+invalid 1..2
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 0x43 int 43000000
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 0 int 00000000
+simple , OP_COMMA
+identifier xff
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+invalid 0x
+simple , OP_COMMA
+identifier ab13
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 0xf int 0F000000
+simple , OP_COMMA
+identifier _id
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal "abc" array of 4 char 61626300
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 'c' char 63
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple and OP_LAND
+simple , OP_COMMA
+identifier _id2
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1 int 01000000
+simple , OP_COMMA
+literal 2 int 02000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1. double 000000000000F03F
+simple , OP_COMMA
+literal 2 int 02000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1 int 01000000
+simple , OP_COMMA
+literal .2 double 9A9999999999C93F
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+invalid 1e+
+simple , OP_COMMA
+literal 15 int 0F000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1e+0 double 000000000000F03F
+simple , OP_COMMA
+literal 2 int 02000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+invalid 0x
+simple , OP_COMMA
+literal 034 int 1C000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 0 int 00000000
+simple , OP_COMMA
+literal 77 int 4D000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+user-defined-literal 1_ _ integer 1
+simple , OP_COMMA
+invalid ̀
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 1 int 01000000
+simple , OP_COMMA
+simple . OP_DOT
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+invalid 1e
+simple , OP_COMMA
+simple + OP_PLUS
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+literal 3 int 03000000
+simple , OP_COMMA
+simple ... OP_DOTS
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple . OP_DOT
+simple , OP_COMMA
+literal 14 int 0E000000
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple | OP_BOR
+simple , OP_COMMA
+simple = OP_ASS
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple and OP_LAND
+simple , OP_COMMA
+simple or OP_LOR
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+identifier PLUS
+simple ( OP_LPAREN
+simple > OP_GT
+simple , OP_COMMA
+simple >= OP_GE
+simple ) OP_RPAREN
+simple ; OP_SEMICOLON
+eof

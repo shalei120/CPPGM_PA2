@@ -1,0 +1,9 @@
+ERROR: malformed number (#5): 40420F00
+ERROR: malformed number (#5): 9A99999999990940
+ERROR: malformed number (#5): 123abc
+ERROR: invalid floating literal (#1): 1..e
+ERROR: malformed number (#5): 123abc
+ERROR: invalid floating literal (#1): 1..e
+ERROR: mismatched encoding prefix in string literal sequence
+ERROR: mismatched encoding prefix in string literal sequence
+ERROR: unterminated character literal

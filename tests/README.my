@@ -1,0 +1,1486 @@
+invalid ##
+identifier CPPGM
+identifier Programming
+identifier Assignment
+literal 2 int 02000000
+simple ( OP_LPAREN
+identifier posttoken
+simple ) OP_RPAREN
+invalid ##
+invalid #
+identifier Overview
+identifier Write
+identifier a
+identifier C
+simple ++ OP_INC
+identifier application
+identifier called
+invalid `
+identifier posttoken
+invalid `
+identifier that
+identifier accepts
+identifier a
+identifier _C
+simple ++ OP_INC
+identifier Source
+identifier File_
+identifier on
+identifier standard
+identifier input
+identifier that
+identifier does
+identifier NOT
+identifier include
+identifier any
+simple ... OP_DOTS
+simple - OP_MINUS
+identifier preprocessing
+identifier directives
+simple - OP_MINUS
+identifier pre
+simple - OP_MINUS
+identifier defined
+identifier macro
+identifier names
+simple - OP_MINUS
+identifier the
+identifier pragma
+simple operator KW_OPERATOR
+simple ... OP_DOTS
+identifier executes
+identifier phases
+literal 1 int 01000000
+simple , OP_COMMA
+literal 2 int 02000000
+simple , OP_COMMA
+literal 3 int 03000000
+simple , OP_COMMA
+literal 4 int 04000000
+simple , OP_COMMA
+literal 5 int 05000000
+simple , OP_COMMA
+literal 6 int 06000000
+simple and OP_LAND
+identifier the
+identifier tokenization
+identifier part
+identifier of
+literal 7 int 07000000
+identifier of
+identifier the
+identifier _Phases
+identifier of
+identifier Translation_
+simple , OP_COMMA
+simple and OP_LAND
+identifier describes
+identifier the
+identifier resulting
+identifier sequence
+identifier of
+identifier analyzed
+simple and OP_LAND
+identifier categorized
+invalid `
+identifier tokens
+invalid `
+identifier to
+identifier standard
+identifier output
+identifier in
+identifier the
+identifier specified
+identifier format
+simple . OP_DOT
+identifier Notice
+identifier that
+identifier by
+identifier virtue
+identifier of
+identifier the
+identifier restrictions
+simple , OP_COMMA
+identifier phase
+literal 4 int 04000000
+simple ( OP_LPAREN
+identifier preprocessing
+simple ) OP_RPAREN
+identifier is
+identifier a
+identifier _no
+simple - OP_MINUS
+identifier op_
+simple ( OP_LPAREN
+identifier does
+identifier nothing
+simple ) OP_RPAREN
+simple . OP_DOT
+invalid ##
+invalid #
+identifier Prerequisites
+identifier You
+identifier should
+identifier complete
+identifier Programming
+identifier Assignment
+literal 1 int 01000000
+identifier before
+identifier starting
+simple this KW_THIS
+identifier assignment
+simple . OP_DOT
+invalid ##
+invalid #
+identifier Starter
+identifier Kit
+identifier The
+identifier starter
+identifier kit
+identifier can
+identifier be
+identifier obtained
+identifier from
+simple : OP_COLON
+invalid $
+identifier git
+identifier clone
+identifier git
+simple : OP_COLON
+identifier It
+identifier contains
+identifier a
+identifier stub
+identifier implementation
+identifier of
+invalid `
+identifier posttoken
+invalid `
+identifier with
+identifier some
+identifier _optional_
+identifier starter
+identifier code
+simple , OP_COMMA
+identifier a
+identifier compiled
+identifier reference
+identifier implementation
+simple and OP_LAND
+identifier a
+identifier test
+identifier suite
+simple . OP_DOT
+identifier You
+identifier will
+identifier also
+identifier want
+identifier to
+identifier reuse
+identifier most
+identifier of
+identifier your
+identifier code
+identifier from
+identifier PA1
+simple . OP_DOT
+invalid ##
+invalid #
+identifier Input
+identifier Format
+identifier The
+identifier C
+simple ++ OP_INC
+identifier Source
+identifier File
+identifier shall
+identifier be
+identifier read
+identifier from
+identifier standard
+identifier input
+invalid `
+identifier std
+simple :: OP_COLON2
+identifier cin
+invalid `
+identifier in
+identifier UTF
+simple - OP_MINUS
+literal 8 int 08000000
+identifier format
+identifier as
+identifier per
+identifier PA1
+simple . OP_DOT
+invalid ##
+invalid #
+identifier Error
+identifier Reporting
+identifier If
+identifier an
+identifier error
+identifier occurs
+identifier in
+identifier phases
+literal 1 int 01000000
+simple , OP_COMMA
+literal 2 int 02000000
+simple or OP_LOR
+literal 3 int 03000000
+invalid `
+identifier main
+invalid `
+identifier should
+invalid `
+simple return KW_RETURN
+identifier EXIT_FAILURE
+invalid `
+identifier as
+identifier per
+identifier the
+identifier behaviour
+identifier of
+invalid `
+identifier pptoken
+invalid `
+identifier in
+identifier PA1
+simple . OP_DOT
+identifier If
+identifier an
+identifier error
+identifier occurs
+simple while KW_WHILE
+identifier converting
+identifier a
+invalid `
+identifier preprocessing
+simple - OP_MINUS
+identifier token
+invalid `
+identifier to
+identifier a
+invalid `
+identifier token
+invalid `
+identifier than
+identifier you
+identifier should
+identifier output
+identifier an
+invalid `
+identifier invalid
+invalid `
+identifier token
+simple ( OP_LPAREN
+identifier see
+identifier below
+simple ) OP_RPAREN
+simple and OP_LAND
+simple continue KW_CONTINUE
+simple . OP_DOT
+identifier Preprocessing
+simple - OP_MINUS
+identifier tokens
+invalid `
+invalid #
+invalid `
+simple , OP_COMMA
+invalid `
+invalid ##
+invalid `
+simple , OP_COMMA
+invalid `
+invalid %:
+invalid `
+simple , OP_COMMA
+invalid `
+invalid %:%:
+invalid `
+simple , OP_COMMA
+invalid `
+identifier non
+simple - OP_MINUS
+identifier whitespace
+simple - OP_MINUS
+identifier characters
+invalid `
+simple , OP_COMMA
+simple and OP_LAND
+invalid `
+identifier header
+simple - OP_MINUS
+identifier names
+invalid `
+simple , OP_COMMA
+identifier should
+identifier be
+identifier output
+identifier as
+invalid `
+identifier invalids
+invalid `
+simple . OP_DOT
+identifier If
+identifier a
+invalid `
+identifier preprocessing
+simple - OP_MINUS
+identifier token
+invalid `
+identifier contains
+identifier a
+identifier pre
+simple - OP_MINUS
+identifier defined
+identifier macro
+identifier names
+simple or OP_LOR
+identifier the
+identifier pragma
+simple operator KW_OPERATOR
+identifier you
+identifier may
+identifier treat
+identifier them
+identifier as
+identifier identifiers
+simple . OP_DOT
+invalid ##
+invalid #
+identifier Restrictions
+identifier As
+identifier per
+identifier PA1
+invalid ##
+invalid #
+identifier Output
+identifier Format
+invalid `
+identifier posttoken
+invalid `
+identifier shall
+identifier write
+identifier to
+identifier standard
+identifier output
+identifier the
+identifier following
+identifier in
+identifier UTF
+simple - OP_MINUS
+literal 8 int 08000000
+identifier format
+simple : OP_COLON
+identifier For
+identifier each
+identifier token
+identifier in
+identifier the
+identifier sequence
+simple , OP_COMMA
+identifier one
+identifier line
+identifier shall
+identifier be
+identifier printed
+identifier consisting
+identifier of
+identifier space
+simple - OP_MINUS
+identifier character
+identifier separated
+identifier elements
+simple . OP_DOT
+identifier The
+identifier first
+identifier element
+identifier is
+identifier the
+identifier _Token
+identifier Type_
+simple , OP_COMMA
+identifier one
+identifier of
+simple : OP_COLON
+identifier simple
+identifier identifier
+identifier literal
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+identifier invalid
+identifier The
+identifier second
+identifier element
+identifier is
+identifier the
+identifier UTF
+simple - OP_MINUS
+literal 8 int 08000000
+identifier encoded
+identifier _source_
+identifier from
+simple . OP_DOT
+identifier The
+identifier _source_
+identifier is
+identifier the
+identifier _PA1
+identifier Token
+identifier Data_
+simple . OP_DOT
+simple ( OP_LPAREN
+identifier In
+identifier particular
+identifier it
+identifier should
+identifier have
+invalid `
+identifier universal
+simple - OP_MINUS
+identifier character
+simple - OP_MINUS
+identifier names
+invalid `
+identifier decoded
+simple , OP_COMMA
+identifier but
+invalid `
+identifier escape
+simple - OP_MINUS
+identifier sequences
+invalid `
+identifier are
+simple not OP_LNOT
+identifier decoded
+simple ) OP_RPAREN
+simple . OP_DOT
+identifier In
+identifier the
+simple case KW_CASE
+identifier of
+identifier string
+identifier literal
+identifier token
+identifier concatenation
+simple , OP_COMMA
+identifier multiple
+invalid `
+identifier preprocessing
+simple - OP_MINUS
+identifier tokens
+invalid `
+identifier are
+identifier used
+identifier to
+identifier form
+identifier a
+identifier single
+invalid `
+identifier token
+invalid `
+simple . OP_DOT
+identifier The
+identifier source
+simple for KW_FOR
+identifier such
+identifier a
+identifier token
+identifier is
+identifier a
+identifier space
+simple - OP_MINUS
+identifier seperated
+identifier list
+identifier of
+identifier the
+invalid `
+identifier preprocessing
+simple - OP_MINUS
+identifier token
+invalid `
+identifier sources
+simple . OP_DOT
+identifier If
+identifier string
+identifier literal
+identifier concatenation
+identifier fails
+identifier than
+identifier output
+identifier an
+invalid `
+identifier invalid
+invalid `
+identifier that
+identifier also
+identifier has
+identifier a
+identifier source
+identifier of
+identifier the
+identifier same
+identifier space
+identifier seperated
+identifier list
+simple . OP_DOT
+identifier The
+identifier output
+identifier should
+identifier end
+identifier with
+identifier a
+invalid `
+identifier eof
+invalid `
+identifier on
+identifier line
+identifier by
+identifier itself
+simple . OP_DOT
+identifier Depending
+identifier on
+identifier the
+identifier Token
+identifier Type
+identifier the
+identifier remaining
+identifier elements
+identifier are
+identifier as
+identifier follows
+simple : OP_COLON
+invalid ##
+invalid ##
+identifier simple
+invalid `
+identifier simple
+invalid `
+identifier represent
+invalid `
+identifier keywords
+invalid `
+simple , OP_COMMA
+invalid `
+identifier operators
+invalid `
+simple and OP_LAND
+invalid `
+identifier punctuators
+invalid `
+simple . OP_DOT
+identifier This
+identifier includes
+invalid `
+simple true KW_TRUE
+invalid `
+simple , OP_COMMA
+invalid `
+simple false KW_FALSE
+invalid `
+simple , OP_COMMA
+invalid `
+simple nullptr KW_NULLPTR
+invalid `
+simple , OP_COMMA
+invalid `
+simple new KW_NEW
+invalid `
+simple and OP_LAND
+invalid `
+simple delete KW_DELETE
+invalid `
+simple - OP_MINUS
+simple for KW_FOR
+simple this KW_THIS
+identifier assignment
+identifier we
+identifier will
+identifier treat
+identifier them
+identifier as
+invalid `
+identifier keywords
+invalid `
+simple and OP_LAND
+simple not OP_LNOT
+invalid `
+identifier literals
+invalid `
+simple or OP_LOR
+invalid `
+identifier operators
+invalid `
+simple . OP_DOT
+identifier They
+identifier are
+identifier output
+identifier as
+identifier simple
+simple < OP_LT
+identifier source
+simple > OP_GT
+simple < OP_LT
+identifier TERMNAME
+simple > OP_GT
+identifier Where
+invalid `
+simple < OP_LT
+identifier TERMNAME
+simple > OP_GT
+invalid `
+identifier is
+identifier given
+identifier in
+identifier the
+identifier list
+identifier below
+identifier under
+identifier Simple
+identifier Token
+identifier Types
+simple ( OP_LPAREN
+identifier defined
+identifier below
+simple ) OP_RPAREN
+simple . OP_DOT
+identifier For
+identifier example
+simple , OP_COMMA
+simple for KW_FOR
+identifier an
+identifier input
+identifier of
+simple : OP_COLON
+simple auto KW_AUTO
+simple && OP_LAND
+identifier the
+identifier output
+identifier is
+simple : OP_COLON
+identifier simple
+simple auto KW_AUTO
+identifier KW_AUTO
+identifier simple
+simple && OP_LAND
+identifier OP_LAND
+invalid ##
+invalid ##
+identifier identifier
+simple ( OP_LPAREN
+identifier in
+identifier output
+identifier context
+simple ) OP_RPAREN
+invalid `
+identifier identifiers
+invalid `
+identifier are
+identifier output
+identifier as
+identifier identifier
+simple < OP_LT
+identifier source
+simple > OP_GT
+identifier Where
+invalid `
+simple < OP_LT
+identifier source
+simple > OP_GT
+invalid `
+identifier is
+identifier the
+identifier identifier
+identifier in
+identifier UTF
+simple - OP_MINUS
+literal 8 int 08000000
+simple , OP_COMMA
+simple for KW_FOR
+identifier example
+simple for KW_FOR
+identifier an
+identifier input
+identifier of
+simple : OP_COLON
+identifier foo
+identifier the
+identifier output
+identifier is
+simple : OP_COLON
+identifier identifier
+identifier foo
+invalid ##
+invalid ##
+identifier literal
+identifier literal
+simple < OP_LT
+identifier source
+simple > OP_GT
+simple < OP_LT
+identifier type
+simple > OP_GT
+simple < OP_LT
+identifier hexdump
+simple > OP_GT
+identifier Where
+invalid `
+simple < OP_LT
+identifier type
+simple > OP_GT
+invalid `
+identifier is
+identifier the
+identifier type
+identifier of
+identifier the
+identifier literal
+simple - OP_MINUS
+identifier either
+identifier a
+identifier Fundamental
+identifier Type
+simple ( OP_LPAREN
+identifier defined
+identifier below
+simple ) OP_RPAREN
+simple , OP_COMMA
+simple or OP_LOR
+identifier an
+invalid `
+identifier array
+identifier of
+simple < OP_LT
+identifier n
+simple > OP_GT
+simple < OP_LT
+identifier fundamental_type
+simple > OP_GT
+invalid `
+simple . OP_DOT
+identifier For
+identifier example
+simple : OP_COLON
+simple char KW_CHAR
+simple long KW_LONG
+simple long KW_LONG
+simple int KW_INT
+identifier array
+identifier of
+literal 42 int 2A000000
+simple char16_t KW_CHAR16_T
+identifier And
+invalid `
+simple < OP_LT
+identifier hexdump
+simple > OP_GT
+invalid `
+identifier is
+identifier the
+identifier hexadecimal
+identifier representation
+identifier of
+identifier the
+identifier data
+identifier in
+identifier memory
+identifier in
+identifier the
+identifier Linux
+identifier x86
+simple - OP_MINUS
+literal 64 int 40000000
+identifier ABI
+simple ( OP_LPAREN
+identifier defined
+identifier below
+simple ) OP_RPAREN
+simple . OP_DOT
+simple > OP_GT
+identifier Important
+simple : OP_COLON
+identifier When
+identifier scanning
+invalid `
+identifier floating
+simple - OP_MINUS
+identifier literals
+invalid `
+simple for KW_FOR
+identifier output
+simple , OP_COMMA
+identifier please
+identifier use
+identifier the
+identifier functions
+identifier from
+identifier the
+identifier starter
+identifier code
+invalid `
+identifier PA2Decode_float
+invalid `
+simple , OP_COMMA
+invalid `
+identifier PA2Decode_double
+invalid `
+simple and OP_LAND
+invalid `
+identifier PA2Decode_long_double
+invalid `
+simple . OP_DOT
+identifier You
+identifier may
+identifier also
+identifier implement
+identifier scanning
+identifier yourself
+identifier but
+identifier please
+identifier pass
+identifier the
+identifier literal
+identifier through
+identifier these
+identifier functions
+simple for KW_FOR
+identifier PA2
+identifier output
+simple for KW_FOR
+identifier bit
+simple - OP_MINUS
+identifier perfect
+identifier compatibility
+identifier with
+identifier test
+identifier harness
+simple and OP_LAND
+identifier reference
+identifier implementation
+simple . OP_DOT
+identifier For
+identifier example
+simple , OP_COMMA
+simple for KW_FOR
+identifier an
+identifier input
+identifier of
+simple : OP_COLON
+literal 1000000 int 40420F00
+literal 'A' char 41
+literal "ABC" array of 4 char 41424300
+literal 3.2 double 9A99999999990940
+identifier the
+identifier output
+identifier is
+simple : OP_COLON
+identifier literal
+literal 1000000 int 40420F00
+simple int KW_INT
+invalid 40420F00
+identifier literal
+literal 'A' char 41
+simple char KW_CHAR
+literal 41 int 29000000
+identifier literal
+literal "ABC" array of 4 char 41424300
+identifier array
+identifier of
+literal 4 int 04000000
+simple char KW_CHAR
+literal 41424300 int AC157802
+identifier literal
+literal 3.2 double 9A99999999990940
+simple double KW_DOUBLE
+invalid 9A99999999990940
+identifier In
+identifier the
+simple case KW_CASE
+identifier of
+identifier string
+identifier literal
+identifier concatenation
+simple : OP_COLON
+literal "abc" "def" array of 7 char 61626364656600
+identifier The
+identifier output
+identifier should
+identifier have
+identifier the
+identifier sources
+identifier joined
+identifier space
+identifier separated
+simple : OP_COLON
+identifier literal
+literal "abc" "def" array of 7 char 61626364656600
+identifier array
+identifier of
+literal 7 int 07000000
+simple char KW_CHAR
+literal 61626364656600 long int D8FB92810C380000
+invalid ##
+invalid ##
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+identifier One
+identifier of
+simple : OP_COLON
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+simple < OP_LT
+identifier source
+simple > OP_GT
+simple < OP_LT
+identifier ud
+simple - OP_MINUS
+identifier suffix
+simple > OP_GT
+identifier integer
+simple < OP_LT
+identifier prefix
+simple > OP_GT
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+simple < OP_LT
+identifier source
+simple > OP_GT
+simple < OP_LT
+identifier ud
+simple - OP_MINUS
+identifier suffix
+simple > OP_GT
+identifier floating
+simple < OP_LT
+identifier prefix
+simple > OP_GT
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+simple < OP_LT
+identifier source
+simple > OP_GT
+simple < OP_LT
+identifier ud
+simple - OP_MINUS
+identifier suffix
+simple > OP_GT
+identifier character
+simple < OP_LT
+identifier type
+simple > OP_GT
+simple < OP_LT
+identifier hexdump
+simple > OP_GT
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+simple < OP_LT
+identifier source
+simple > OP_GT
+simple < OP_LT
+identifier ud
+simple - OP_MINUS
+identifier suffix
+simple > OP_GT
+identifier string
+simple < OP_LT
+identifier type
+simple > OP_GT
+simple < OP_LT
+identifier hexdump
+simple > OP_GT
+identifier Where
+invalid `
+simple < OP_LT
+identifier ud
+simple - OP_MINUS
+identifier suffix
+simple > OP_GT
+invalid `
+identifier is
+identifier the
+invalid `
+identifier ud
+simple - OP_MINUS
+identifier suffix
+invalid `
+identifier In
+identifier the
+simple case KW_CASE
+identifier of
+invalid `
+identifier integer
+invalid `
+simple and OP_LAND
+invalid `
+identifier floating
+invalid `
+simple , OP_COMMA
+invalid `
+simple < OP_LT
+identifier prefix
+simple > OP_GT
+invalid `
+identifier is
+identifier the
+identifier source
+identifier without
+identifier the
+invalid `
+identifier ud
+simple - OP_MINUS
+identifier suffix
+invalid `
+identifier In
+identifier the
+simple case KW_CASE
+identifier of
+invalid `
+identifier string
+invalid `
+simple and OP_LAND
+invalid `
+identifier character
+invalid `
+simple , OP_COMMA
+invalid `
+simple < OP_LT
+identifier type
+simple > OP_GT
+simple < OP_LT
+identifier hexdump
+simple > OP_GT
+invalid `
+identifier have
+identifier the
+identifier same
+identifier meaning
+identifier as
+identifier in
+invalid `
+identifier literal
+invalid `
+simple ( OP_LPAREN
+identifier above
+simple ) OP_RPAREN
+simple . OP_DOT
+identifier For
+identifier example
+simple : OP_COLON
+user-defined-literal 123_foo _foo integer 123
+user-defined-literal 4.2_bar _bar floating 4.2
+user-defined-literal 0x3_baz _baz integer 0x3
+user-defined-literal "abc"_qux _qux string array of 4 char 61626300
+user-defined-literal 'a'_quux _quux character char 61
+identifier outputs
+simple : OP_COLON
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+user-defined-literal 123_foo _foo integer 123
+identifier _foo
+identifier integer
+literal 123 int 7B000000
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+user-defined-literal 4.2_bar _bar floating 4.2
+identifier _bar
+identifier floating
+literal 4.2 double CDCCCCCCCCCC1040
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+user-defined-literal 0x3_baz _baz integer 0x3
+identifier _baz
+identifier integer
+literal 0x3 int 03000000
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+user-defined-literal "abc"_qux _qux string array of 4 char 61626300
+identifier _qux
+identifier string
+identifier array
+identifier of
+literal 4 int 04000000
+simple char KW_CHAR
+literal 61626300 int BC57AC03
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier literal
+user-defined-literal 'a'_quux _quux character char 61
+identifier _quux
+identifier character
+simple char KW_CHAR
+literal 61 int 3D000000
+invalid ##
+invalid ##
+identifier invalid
+identifier For
+identifier any
+identifier valid
+invalid `
+identifier preprocessing
+simple - OP_MINUS
+identifier token
+invalid `
+identifier that
+identifier does
+simple not OP_LNOT
+identifier posttokenize
+identifier output
+simple : OP_COLON
+identifier invalid
+simple < OP_LT
+identifier source
+simple > OP_GT
+identifier For
+identifier example
+simple : OP_COLON
+invalid #
+invalid 123abc
+invalid 1..e
+identifier Should
+identifier output
+simple : OP_COLON
+identifier invalid
+invalid #
+identifier invalid
+invalid 123abc
+identifier invalid
+invalid 1..e
+identifier Also
+identifier as
+identifier stated
+identifier above
+identifier invalid
+identifier string
+identifier literal
+identifier concatenation
+identifier should
+identifier output
+identifier one
+identifier invalid
+simple . OP_DOT
+identifier For
+identifier example
+simple : OP_COLON
+invalid u8"abc" u"def" U"ghi"
+identifier Should
+identifier output
+simple : OP_COLON
+identifier invalid
+invalid u8"abc" u"def" U"ghi"
+invalid ##
+invalid #
+identifier Features
+identifier First
+identifier you
+identifier will
+identifier need
+identifier to
+identifier apply
+identifier the
+identifier same
+identifier functionality
+identifier from
+identifier pptoken
+identifier to
+identifier get
+identifier the
+identifier stream
+identifier of
+invalid `
+identifier processing
+simple - OP_MINUS
+identifier tokens
+invalid `
+simple . OP_DOT
+invalid `
+identifier whitespace
+simple - OP_MINUS
+identifier sequence
+invalid `
+simple and OP_LAND
+invalid `
+simple new KW_NEW
+simple - OP_MINUS
+identifier line
+invalid `
+identifier are
+identifier ignored
+simple . OP_DOT
+simple ( OP_LPAREN
+identifier They
+identifier are
+simple for KW_FOR
+identifier preprocessing
+simple , OP_COMMA
+identifier which
+identifier we
+identifier shall
+identifier implement
+identifier in
+identifier a
+identifier later
+identifier assignment
+simple ) OP_RPAREN
+identifier Any
+identifier occurences
+identifier of
+invalid `
+identifier non
+simple - OP_MINUS
+identifier whitespace
+simple - OP_MINUS
+identifier character
+invalid `
+simple or OP_LOR
+invalid `
+identifier header
+simple - OP_MINUS
+identifier name
+invalid `
+identifier output
+identifier as
+identifier an
+invalid `
+identifier invalid
+invalid `
+simple . OP_DOT
+identifier The
+identifier remaining
+invalid `
+identifier preprocessing
+simple - OP_MINUS
+identifier tokens
+invalid `
+identifier are
+simple : OP_COLON
+identifier identifier
+identifier preprocessing
+simple - OP_MINUS
+identifier op
+simple - OP_MINUS
+simple or OP_LOR
+simple - OP_MINUS
+identifier punc
+identifier pp
+simple - OP_MINUS
+identifier number
+identifier character
+simple - OP_MINUS
+identifier literal
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier character
+simple - OP_MINUS
+identifier literal
+identifier string
+simple - OP_MINUS
+identifier literal
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier string
+simple - OP_MINUS
+identifier literal
+identifier We
+identifier will
+identifier discuss
+identifier each
+identifier of
+identifier them
+simple : OP_COLON
+invalid ##
+invalid ##
+identifier identifier
+simple ( OP_LPAREN
+identifier in
+identifier preprocessing
+simple - OP_MINUS
+identifier token
+identifier context
+simple ) OP_RPAREN
+identifier If
+identifier it
+identifier is
+identifier a
+identifier member
+identifier of
+identifier the
+identifier keyword
+identifier list
+simple , OP_COMMA
+identifier output
+identifier it
+identifier as
+identifier a
+identifier keyword
+simple , OP_COMMA
+identifier otherwise
+identifier output
+identifier it
+identifier as
+identifier an
+identifier identifier
+simple . OP_DOT
+invalid ##
+invalid ##
+identifier preprocessing
+simple - OP_MINUS
+identifier op
+simple - OP_MINUS
+simple or OP_LOR
+simple - OP_MINUS
+identifier punc
+identifier If
+identifier you
+identifier encounter
+identifier the
+identifier operators
+invalid `
+invalid #
+invalid `
+simple , OP_COMMA
+invalid `
+invalid ##
+invalid `
+simple , OP_COMMA
+invalid `
+invalid %:
+invalid `
+simple , OP_COMMA
+invalid `
+invalid %:%:
+invalid `
+identifier output
+identifier them
+identifier as
+invalid `
+identifier invalid
+invalid `
+simple . OP_DOT
+identifier For
+identifier the
+identifier remaining
+invalid `
+identifier operators
+invalid `
+simple and OP_LAND
+invalid `
+identifier punctuation
+invalid `
+identifier you
+identifier should
+identifier map
+identifier them
+identifier to
+identifier the
+identifier appropriate
+invalid `
+identifier simples
+invalid `
+identifier given
+identifier in
+identifier the
+identifier table
+identifier below
+simple , OP_COMMA
+simple or OP_LOR
+identifier output
+identifier them
+identifier as
+invalid `
+identifier invalid
+invalid `
+simple if KW_IF
+simple not OP_LNOT
+identifier found
+simple . OP_DOT
+invalid ##
+invalid ##
+identifier pp
+simple - OP_MINUS
+identifier number
+identifier You
+identifier need
+identifier to
+identifier analyze
+identifier the
+identifier string
+simple and OP_LAND
+identifier classify
+identifier it
+identifier as
+identifier matching
+identifier the
+invalid `
+identifier integer
+simple - OP_MINUS
+identifier literal
+invalid `
+simple , OP_COMMA
+invalid `
+identifier floating
+simple - OP_MINUS
+identifier literal
+invalid `
+simple , OP_COMMA
+invalid `
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier integer
+simple - OP_MINUS
+identifier literal
+invalid `
+simple or OP_LOR
+invalid `
+identifier user
+simple - OP_MINUS
+identifier defined
+simple - OP_MINUS
+identifier floating
+simple - OP_MINUS
+identifier literal
+invalid `
+identifier grammar
+simple . OP_DOT
+identifier If
+identifier it
+identifier doesn
+state 7:unterminated character literal

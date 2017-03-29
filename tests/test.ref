@@ -1,0 +1,5 @@
+user-defined-literal "abc" "def"_ud1 "ghi" _ud1 string array of 10 char 61626364656667686900
+user-defined-literal 1_̀ _̀ integer 1
+user-defined-literal "wldkjs"_̀ _̀ string array of 7 char 776C646B6A7300
+user-defined-literal 'a'_̀ _̀ character char 61
+eof

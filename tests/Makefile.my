@@ -1,0 +1,70 @@
+identifier all
+simple : OP_COLON
+identifier posttoken
+invalid #
+identifier build
+identifier posttoken
+identifier application
+identifier posttoken
+simple : OP_COLON
+identifier posttoken
+simple . OP_DOT
+identifier cpp
+identifier g
+simple ++ OP_INC
+simple - OP_MINUS
+identifier g
+simple - OP_MINUS
+identifier std
+simple = OP_ASS
+identifier gnu
+simple ++ OP_INC
+literal 11 int 0B000000
+simple - OP_MINUS
+identifier Wall
+simple - OP_MINUS
+identifier o
+identifier posttoken
+identifier posttoken
+simple . OP_DOT
+identifier cpp
+invalid #
+identifier test
+identifier posttoken
+identifier application
+identifier test
+simple : OP_COLON
+identifier all
+identifier scripts
+simple / OP_DIV
+identifier run_all_tests
+simple . OP_DOT
+identifier pl
+identifier posttoken
+identifier my
+identifier scripts
+simple / OP_DIV
+identifier compare_results
+simple . OP_DOT
+identifier pl
+identifier ref
+identifier my
+invalid #
+identifier regenerate
+identifier reference
+identifier test
+identifier output
+identifier ref
+simple - OP_MINUS
+identifier test
+simple : OP_COLON
+identifier scripts
+simple / OP_DIV
+identifier run_all_tests
+simple . OP_DOT
+identifier pl
+identifier posttoken
+simple - OP_MINUS
+identifier ref
+identifier ref
+eof
